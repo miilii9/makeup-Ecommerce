@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+*::-webkit-scrollbar-thumb {
+  width: 0;
+  opacity: 0;
+}
+*::-webkit-scrollbar {
+  width: 0;
+  opacity: 0;
+}
+*::-webkit-scrollbar-track {
+  width: 0;
+  opacity: 0;
+}
+*::-webkit-scrollbar-track-piece {
+  width: 0;
+  opacity: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.slidss {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: start;
+  width: 80%;
+  margin: 30px auto;
+  height: auto;
+  position: relative;
+}
+.products {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+.countdown {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.specials {
+  /* background: url(assets/Images/img-6.jpg) cover no-repeat center !important; */
+  position: relative;
+  margin-top: 5rem;
+}
+.specials>img{
+  position: absolute;
+  z-index: -1000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+}

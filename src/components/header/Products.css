@@ -1,0 +1,21 @@
+.prdcts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+.prdcts img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: auto;
+}
+.prdcts p {
+  color: #fff;
+  margin-top: 0.5rem;
+  text-align: center;
+  padding: 7px 30px;
+  border: none;
+  border-radius: 1rem;
+}
